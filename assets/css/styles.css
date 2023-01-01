@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121418;
+    margin: 0;
+    font-family: Open Sans, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: white;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    font-weight: bold;
+    
+}
+h1 {    
+    font-size: 3.5rem;
+    font-family: Merriweather, -apple-system, serif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: Open Sans, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: Open Sans, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+p {
+    color: #D1D5DB;
+    font-size: 1.3rem;
+    font-family: Open Sans, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/*-----------Top Section--------------*/
+.top-section {
+    max-width: 100%;
+    background-color: #121418;
+    padding: 3rem 0;
+}
+
+.top-container {
+    padding: 0 3%;           
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%; 
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 0;
+    align-items: center !important;
+}
+
+.title-description {
+    color: white;
+    margin: 50px auto 50px;
+    font-family: Open Sans, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-size: 32px;
+}
+
+.title-description p {
+    margin-right: 5%;
+}
+
+ .title-img {
+    border-radius: 4px;
+    max-height: 500px;
+    max-width: 100%;
+    text-align: center;
+    background-position: center center;
+    vertical-align: bottom;
+    display:inline;
+}
+.top-right-colon {
+    flex: 0 0 auto;
+    width: 50%;
+    min-width: 400px;    
+}
+
+.top-left-colon {
+    width: 50%;
+    position: relative;
+    min-width: 400px;
+}
+
+.pinku {
+    color: #EC255A
+}
+
+.logo {
+    height: 15px;
+    display: inline-block;
+}
+
+button {
+    margin: 40px auto 40px 15px;
+}
+
+button:hover {
+    background: grey;
+    text-decoration: none;
+}
+
+/*-----------About Me Section--------------*/
+.-section {
+    max-width: 100%;
+    background-color: #121418;
+    padding: 3rem 0 1rem;
+}
+.aboutme-container {
+    background-color: #1d2026;
+    padding: 5% 5%;
+}
+
+.profile {
+    max-width: 100%;
+}
+
+/*-----------Projects Section--------------*/
+.projects-section {
+    max-width: 100%;
+    background-color: #121418;
+    padding: 3rem 0;
+}
+
+.project-row {
+    padding-bottom: 15px;
+}
+
+.project-row, .project-name-row, .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 0;
+}
+
+.project-colon {
+    width: 33%;
+    flex: 0 0 auto;
+    position: relative;
+    padding:0;
+    height: 100%;
+    min-width: 300px;    
+}
+
+.project {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;    
+}
+
+.img-prj {
+    width: 90%;
+    margin: auto;
+}
+
+.project-row h3 {
+    font-size: 1.2rem;
+    font-family: Merriweather, -apple-system, serif;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.contact-me h3 {
+    font-size: 1.2rem;
+    font-family: Merriweather, -apple-system, serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-me h2 {
+    padding-bottom: 20px;
+    color: #EC255A;
+}
+
+.project-row p {
+    font-family: Open Sans, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+.profile h2 {
+    font-family: Merriweather, -apple-system, serif;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #EC255A;
+}
+
+.project-row h2 {
+    font-family: Merriweather, -apple-system, serif;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #EC255A;
+    margin-left: 5%;
+}
+
+.contact-me {
+    width: 100%;
+    margin: auto;
+    padding:30px 0;
+    text-align: center;
+    color: #FFF2F2;
+}
+
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    background: #EC255A;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #99a699;
+    text-decoration: none;
+}
+
+.contact-row {
+    background-color: #1d2026;
+    padding: 0 0 20px;
+}
+
+.contact-row .contact-me {
+    padding-bottom: 0;
+}
+
+/*-----------Finish Part--------------*/
+#bott-container {
+    background-color: #414753;
+    padding-top: 20px;
+    text-align: center;
+}
+
