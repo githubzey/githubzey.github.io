@@ -56,7 +56,6 @@ p {
     max-width: 100%;
     background-color: #121418;
     padding: 3rem 0;
-
 }
 
 .top-container {
@@ -95,11 +94,13 @@ p {
 .top-right-colon {
     flex: 0 0 auto;
     width: 50%;
-    
+    min-width: 400px;    
 }
+
 .top-left-colon {
     width: 50%;
     position: relative;
+    min-width: 400px;
 }
 
 .pinku {
@@ -135,7 +136,6 @@ button:hover {
     max-width: 100%;
 }
 
-
 /*-----------Projects Section--------------*/
 .projects-section {
     max-width: 100%;
@@ -143,13 +143,11 @@ button:hover {
     padding: 3rem 0;
 }
 
-
-
 .project-row {
     padding-bottom: 15px;
 }
 
-.project-row, .project-name-row, .project-library-row, .contact-row {
+.project-row, .project-name-row, .contact-row {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -163,20 +161,21 @@ button:hover {
     position: relative;
     padding:0;
     height: 100%;
+    min-width: 300px;    
 }
 
 .project {
     max-width: 90%;
     margin: auto;
-    text-align: center;
-    
+    text-align: center;    
 }
+
 .img-prj {
     width: 90%;
     margin: auto;
 }
 
-.project-name-row h3 {
+.project-row h3 {
     font-size: 1.2rem;
     font-family: Merriweather, -apple-system, serif;
     font-weight: 500;
@@ -197,7 +196,7 @@ button:hover {
     color: #EC255A;
 }
 
-.project-name-row p{
+.project-row p {
     font-family: Open Sans, -apple-system, "Helvetica Neue", Arial, sans-serif;
     font-size: 0.8rem;
     font-style: italic;
@@ -207,21 +206,11 @@ button:hover {
     margin-bottom: 50px;
 }
 
-.project-library-row p {
-    font-family: Open Sans, -apple-system, "Helvetica Neue", Arial, sans-serif;
-    font-size: 0.8rem;
-    font-style: italic;
-    font-weight: 300;
-    text-align: left;
-    margin-left: 15px;
-}
-
 .profile h2 {
     font-family: Merriweather, -apple-system, serif;
     font-size: 1.4rem;
     margin-bottom: 15px;
     color: #EC255A;
-
 }
 
 .project-row h2 {
@@ -230,14 +219,7 @@ button:hover {
     margin-bottom: 15px;
     color: #EC255A;
     margin-left: 5%;
-
 }
-
-.project-library-row{
-    padding-bottom: 50px;
-}
-
-
 
 .contact-me {
     width: 100%;
@@ -269,7 +251,6 @@ button:hover {
 .contact-row {
     background-color: #1d2026;
     padding: 0 0 20px;
-
 }
 
 .contact-row .contact-me {
@@ -282,11 +263,4 @@ button:hover {
     padding-top: 20px;
     text-align: center;
 }
-
-/*-----------Others--------------*/
-
-
-
-
-
 
